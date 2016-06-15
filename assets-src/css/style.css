@@ -1,0 +1,171 @@
+body{
+	overflow-x: hidden;
+	background: #ccc;
+}
+
+header{
+	width: 100%;
+	height: 50px;
+	background: #ccc;
+	position: fixed;
+	z-index: 2;
+}
+
+ul{
+	list-style: none !important;
+}
+
+p{
+	font-size: 22px;
+}
+
+/*ul.sub-menu{
+	position: absolute;
+	right: 0px;
+}*/
+
+li.qtranxs-lang-menu-item {
+	display: inline-block;
+	background: #bbb;
+	padding: 5px 10px;
+	position: relative;
+	top: 8px;
+	/*position: absolute;*/
+	margin-right: 10px;
+	float: right;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+/* hide Language title */
+.qtranxs-lang-menu > a { 
+	display: none; 
+}
+
+/*.qtranxs-lang-menu-item.current-menu-item{
+	background: #fff !important;
+}
+*/
+.lang{
+	background: #bbb;
+	padding: 5px 10px;
+	position: relative;
+	top: 10px;
+	margin-right: 10px;
+	float: right;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.selected{
+	background: #fff !important;
+}
+
+.lang:hover{
+	background: #eee;
+}
+
+/* MENU */
+
+.logged-in .menu-container {
+	top: 32px;
+}
+
+.menu-container {
+	position: fixed;
+	top: 4px;
+	width: 100%;
+	margin: auto;
+	text-align: right;
+	z-index: 4;
+}
+
+.menu-ul > li{
+	display: inline-block;
+
+}
+
+.menu-ul > li > a{
+	/*background: blue;*/
+	padding: 0 15px;
+	font-size: 18px;
+}
+
+#home-page{
+	/*background: #ddccb8;*/
+	background: url('../img/avo.jpg') repeat;
+	background-size: cover;
+	/*position: relative;*/
+	width: 100%;
+	height: 100vh;
+}
+
+.logo{
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	/*right: 0;*/
+	margin: auto;
+	float: left;
+	z-index: 3;
+}
+
+.logo-nudge{
+	background: transparent;
+	top: 75px;
+	height: 220px;
+}
+
+.home-content{
+	position: relative;
+	top: 75px;
+	color: white;
+	background: rgba(0,0,0,0.5);
+	padding: 15px 25px 1px;
+	border-radius: 3px; 
+}
+
+footer{
+	height: 150px;
+	width: 100%;
+	background: #ccc;
+	padding: 10px;
+}
+
+table.hours{
+	width: 350px;
+	margin-top: 20px;
+	margin-left: 5%;
+	float: left;
+	font-size: 20px;
+}
+
+table.info{
+	width: 350px;
+	text-align: right;
+	margin-right: 5%;
+	float: right;
+	font-size: 20px;
+}
+
+.info > li{
+	margin: 0 0 0 10px;
+} 
+
+.copyright{
+	text-align: center;
+	/*background: red;*/
+	position: relative;
+	top: 260px;
+	width: 90%;
+	font-size: 12px;
+	height: auto;
+	margin: auto;
+	/*margin-right: -50px;*/
+}
+
+
+
+
+
+
