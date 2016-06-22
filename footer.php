@@ -12,14 +12,14 @@
 ?>
 
 	</div><!-- #main-content -->
+</div><!-- .main-container -->
 
-  <footer id="colophon" class="site-footer" role="contentinfo">
-    
-  </footer><!-- #colophon -->
 
 
 <?php wp_footer(); ?>
-
+<script>
+	var lango = "<?php echo qtrans_getLanguage();?>";
+</script>	
 <script src="<?php bloginfo('template_directory'); ?>/assets/js/build.min.js"></script>
 
 </body>
