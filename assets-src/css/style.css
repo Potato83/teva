@@ -107,7 +107,7 @@ li.qtranxs-lang-menu-item {
 	font-size: 18px;
 }
 
-#home-page{
+.home-page{
 	/*background: #ddccb8;*/
 	/*background: url('../img/avo.jpg') repeat;*/
 	/*background-size: cover;*/
@@ -115,6 +115,13 @@ li.qtranxs-lang-menu-item {
 	width: 100%;
 	min-height: 100vh;
 	border-bottom: 5px solid pink;
+}
+
+.default-page{
+	width: 100%;
+	/*min-height: 100vh;*/
+	height: auto;
+	padding-top: 50px;
 }
 
 .logo{
@@ -189,6 +196,29 @@ table.info{
 	height: auto;
 	margin: auto;
 	/*margin-right: -50px;*/
+}
+
+.prod{
+	width: 80%;
+	/*height: auto;
+	line-height: 250px;*/
+	/*display: table-cell;
+	vertical-align: middle;*/
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+
+}
+
+.prod-con{
+	/*background: red;*/
+	/*display: table;*/
+	height: 250px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 

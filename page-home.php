@@ -6,7 +6,7 @@ get_header();
 $desc = get_field('desc');
 ?>
 
-<section id="home-page">
+<section class="home-page">
 	
 		<div class="row">				
 				<div class="home-content">
@@ -24,7 +24,7 @@ $desc = get_field('desc');
 		
 	<?php //endwhile; ?> -->
 	
-</section><!-- #home-page -->
+</section><!-- .home-page -->
 
 <?php get_template_part('content', 'footer'); ?>
 <?php //get_sidebar(); ?>
