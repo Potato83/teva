@@ -6,8 +6,9 @@ get_header();
 $directions = get_field('directions');
 ?>
 
-
+<div class="map">
 <?php get_template_part('content', 'content'); ?>
+</div><!-- .map -->
 
 <p><?php echo $directions; ?></p>
 

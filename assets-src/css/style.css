@@ -41,7 +41,7 @@ p{
 
 li.qtranxs-lang-menu-item {
 	display: inline-block;
-	background: #bbb;
+	background: #fff;
 	padding: 5px 10px;
 	position: relative;
 	top: 8px;
@@ -62,7 +62,7 @@ li.qtranxs-lang-menu-item {
 }
 */
 .lang{
-	background: red;
+	/*background: red;*/
 	padding: 5px 10px;
 	/*position: fixed;*/
 	top: 10px;
@@ -73,11 +73,37 @@ li.qtranxs-lang-menu-item {
 }
 
 .selected{
-	background: #fff !important;
+	background: #bbb !important;
 }
 
-.lang:hover{
-	background: #eee;
+.current-menu-item{
+	background: pink;
+}
+
+/*.lang:hover{
+	background: #fff;
+}*/
+
+@media(max-width: 590px){
+	.sub-menu{
+		background: green !important;
+		position: absolute;
+		top: -100px;
+		right: 0;
+		width: 50px;
+		display: block;
+	}
+	li.qtranxs-lang-menu-item {
+		display: block;
+		/*background: yellow;*/
+		padding: 5px 10px;
+		position: relative;
+		top: 8px;		
+		margin-right: 10px;		
+		font-size: 14px;
+		width: 40px;		
+	}
+
 }
 
 /* MENU */
@@ -219,6 +245,11 @@ table.info{
 	height: 250px;
 	margin-top: 5px;
 	margin-bottom: 5px;
+}
+
+.map{
+	width: 95%;
+	margin: auto;
 }
 
 

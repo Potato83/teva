@@ -4,6 +4,7 @@ Template Name: Products Page
  */
 get_header(); 
 $products = get_field('products');
+$about = get_field('about-products');
 ?>
 
 
@@ -11,6 +12,7 @@ $products = get_field('products');
 	
 		<div class="row">				
 				<div class="home-content">
+					<p><?php echo $about; ?></p>
 					<p>
 						<?php 
 							if($products){
