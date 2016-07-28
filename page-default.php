@@ -6,12 +6,13 @@ get_header();
 $directions = get_field('directions');
 ?>
 
-<div class="map">
-<?php get_template_part('content', 'content'); ?>
+<div class="home-content map">
+	<p><?php echo $directions; ?></p>
+	<?php get_template_part('content', 'content'); ?>
 </div><!-- .map -->
 
-<p><?php echo $directions; ?></p>
 
+<div class="clearfix"></div>
 <?php get_template_part('content', 'footer'); ?>
 <?php //get_sidebar(); ?>
 <?php get_footer(); ?>

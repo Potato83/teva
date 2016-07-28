@@ -10,10 +10,11 @@ $about = get_field('about-products');
 
 <section class="home-page">
 	
-		<div class="row">				
+		<!-- <div class="row">				 -->
 				<div class="home-content">
 					<p><?php echo $about; ?></p>
-					<p>
+					<!-- <div class="clearfix"></div> -->
+					<div class="clearfix">
 						<?php 
 							if($products){
 								foreach ($products as $product) {
@@ -23,14 +24,14 @@ $about = get_field('about-products');
 								}
 							}	
 						?>	
-					</p>
+					</div>
 				</div>
-		</div>
+		<!-- </div> -->
 
 </section><!-- .home-page -->
 
 
-
+<div class="clearfix"></div>
 <?php get_template_part('content', 'footer'); ?>
 <?php //get_sidebar(); ?>
 <?php get_footer(); ?>

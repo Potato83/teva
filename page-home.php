@@ -8,13 +8,13 @@ $desc = get_field('desc');
 
 <section class="home-page">
 	
-		<div class="row">				
-				<div class="home-content">
+		<!-- <div class="row">				 -->
+				<div class="home-content col-md-12">
 					<p>
 						<?php echo $desc; ?> 
 					</p>
 				</div>
-		</div>
+		<!-- </div> -->
 
 
 	<!-- DEBUG -->
@@ -25,7 +25,7 @@ $desc = get_field('desc');
 	<?php //endwhile; ?> -->
 	
 </section><!-- .home-page -->
-
+<div class="clearfix"></div>
 <?php get_template_part('content', 'footer'); ?>
 <?php //get_sidebar(); ?>
 <?php get_footer(); ?>

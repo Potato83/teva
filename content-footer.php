@@ -6,7 +6,10 @@
 			<?php echo $hours; ?>
 			
 				<table class="info">
-			<th>&nbsp;</th>
+			<!-- <th>&nbsp;</th> -->
+			<tr>
+				<td>&nbsp;</td>
+			</tr>
 			<tr>
 				<td>5143 Boulevard D&eacute;carie</td>
 			</tr>

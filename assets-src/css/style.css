@@ -9,14 +9,18 @@ header{
 	width: 100%;
 	/*height: 50px;*/
 	background: blue;
+	background: #bbb;
+	background: url('../img/avo.jpg');
+	background-size: cover;
 	/*position: fixed;*/
 	z-index: 2;
 }
 
 .main-container{
 	background: green;
+	background: #CCC;
 	margin-bottom: 0;
-	min-height: 100vh;
+	/*min-height: 100vh;*/
 }
 
 ul{
@@ -33,7 +37,7 @@ p{
 }*/
 
 .sub-menu{
-	background: red !important;
+	/*background: red !important;*/
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -50,6 +54,7 @@ li.qtranxs-lang-menu-item {
 	float: right;
 	font-size: 14px;
 	cursor: pointer;
+	border-radius: 10px;
 }
 
 /* hide Language title */
@@ -77,7 +82,8 @@ li.qtranxs-lang-menu-item {
 }
 
 .current-menu-item{
-	background: pink;
+	background: #F7C016;
+	border-radius: 10px;
 }
 
 .badge.social {  
@@ -109,9 +115,9 @@ li.qtranxs-lang-menu-item {
 
 @media(max-width: 590px){
 	.sub-menu{
-		background: green !important;
+		/*background: green !important;*/
 		position: absolute;
-		top: -100px;
+		top: -105px;
 		right: 0;
 		width: 50px;
 		display: block;
@@ -122,7 +128,8 @@ li.qtranxs-lang-menu-item {
 		padding: 5px 10px;
 		position: relative;
 		top: 8px;		
-		margin-right: 10px;		
+		margin-right: 15px;
+		margin-bottom: 5px;		
 		font-size: 14px;
 		width: 40px;		
 	}
@@ -137,8 +144,12 @@ li.qtranxs-lang-menu-item {
 
 .menu-container {
 	position: relative;
-	background: yellow;
-	top: 14px;
+	background: #999DA0 !important;
+	/*background: url('../img/avo.jpg');*/
+	/*background-size: 5%;*/
+	border: 1px solid transparent;
+	padding: 10px 35px 0 0; /* re-center menu */
+	/*	top: 0px;*/
 	width: 100%;
 	margin: auto;
 	text-align: center;
@@ -154,24 +165,66 @@ li.qtranxs-lang-menu-item {
 	/*background: blue;*/
 	padding: 0 15px;
 	font-size: 18px;
+	color: #0D6B37;
 }
 
-.home-page{
-	/*background: #ddccb8;*/
-	/*background: url('../img/avo.jpg') repeat;*/
-	/*background-size: cover;*/
-	/*position: relative;*/
-	width: 100%;
-	min-height: 100vh;
-	border-bottom: 5px solid pink;
-}
-
-.default-page{
-	width: 100%;
-	/*min-height: 100vh;*/
+footer{
 	height: auto;
-	padding-top: 50px;
+	width: 100%;
+	/*background: #ccc;*/
+/*	background: rgba(3,3,3,0.5);*/
+	background: #ddd;
+	background: url('../img/avo.jpg') 80%;
+	background-size: cover;
+	color: #ddd;
+	padding: 10px;
+	/*position: relative;
+	display: block;*/
+	margin-bottom: 20px;
 }
+
+
+.footer-container{
+	width: 100%;
+	height: 100%;
+	/*background: yellow;*/
+	/*background: #ddd;
+	background: url('../img/avo.jpg');*/
+}
+
+table.hours{
+	width: 350px;
+	margin-top: 20px;
+	margin-left: 5%;
+	float: left;
+	font-size: 20px;
+}
+
+table.info{
+	width: auto;
+	text-align: right;
+	margin-right: 5%;
+	float: right;
+	font-size: 20px;
+}
+
+.info > li{
+	margin: 0 0 0 10px;
+} 
+
+.copyright{
+	text-align: center;
+	/*background: blue;*/
+	/*position: relative;*/
+	padding-top: 35px;
+	padding-bottom: 5px;
+	width: 100%;
+	font-size: 12px;
+	height: auto;
+	margin: auto;
+	/*margin-right: -50px;*/
+}
+
 
 .logo{
 	/*position: fixed;
@@ -186,66 +239,86 @@ li.qtranxs-lang-menu-item {
 }
 
 .home-content{
-	position: relative;
-	top: 75px;
-	color: white;
-	background: rgba(0,0,0,0.5);
-	padding: 15px 25px 1px;
-	border-radius: 3px; 
-
-}
-
-footer{
-	height: 100%;
-	width: 100%;
-	/*background: #ccc;*/
-/*	background: rgba(3,3,3,0.5);*/
-	background: red;
-	color: black;
-	padding: 10px;
-	/*position: relative;
-	display: block;*/
-	margin-bottom: 20px;
-}
-
-.footer-container{
-	width: 100%;
-	height: 100%;
-	background: yellow;
-}
-
-table.hours{
-	width: 350px;
-	margin-top: 20px;
-	margin-left: 5%;
-	float: left;
-	font-size: 20px;
-}
-
-table.info{
-	width: 350px;
-	text-align: right;
-	margin-right: 5%;
-	float: right;
-	font-size: 20px;
-}
-
-.info > li{
-	margin: 0 0 0 10px;
-} 
-
-.copyright{
-	text-align: center;
-	background: blue;
 	/*position: relative;*/
-	padding-top: 20px;
-	padding-bottom: 20px;
-	width: 100%;
-	font-size: 12px;
-	height: auto;
+	/*top: 75px;*/
+	color: #0D6737;
+	color: #232b27;
+	/*background: rgba(187,184,173,0.5);*/
+	background: #fefefe;
+	padding: 70px 55px 50px;
+	border-radius: 3px;
+	/*width: 97.5%;*/
+	box-sizing: border-box; 
 	margin: auto;
-	/*margin-right: -50px;*/
+
 }
+
+@media(max-width: 640px) and (min-width: 413px){
+	table.info,
+	table.hours{
+		font-size: 16px;
+		/*color: red;*/
+		/*width: 100%;*/
+	}
+}
+
+@media(max-width: 412px){
+	.menu-ul > li > a{
+		padding: 0 12px;
+		font-size: 14px;
+	}
+	table.info,
+	table.hours{
+		font-size: 15px;
+		/*color: red;*/
+		width: 100%;
+	}
+	.logo{
+		margin: auto 0;
+	}
+	.home-content{
+		padding: 70px 20px 50px;
+	}
+}
+
+@media(max-width: 330px){
+	.menu-ul > li > a{
+		padding: 0 10px;
+		font-size: 12px;
+	}
+	li.qtranxs-lang-menu-item {
+		margin-right: 1px;
+		margin-bottom: 5px;		
+		font-size: 12px;
+		width: 35px;		
+	}
+}
+
+.home-page{
+	/*background: #ddccb8;*/
+	/*background: url('../img/avo.jpg') repeat;*/
+	/*background-size: cover;*/
+	/*position: relative;*/
+	width: 100%;
+	/*min-height: 100vh;*/
+	/*border-bottom: 5px solid #ccc;*/
+	background: transparent;
+}
+
+.default-page{
+	width: 100%;
+	/*min-height: 100vh;*/
+	height: auto;
+	padding-top: 10px;
+}
+
+
+
+
+
+
+
+
 
 .prod{
 	width: 80%;
@@ -270,10 +343,18 @@ table.info{
 	margin-bottom: 5px;
 }
 
-.map{
-	width: 95%;
-	margin: auto;
+@media(max-width: 767px){
+	.prod-con{
+		height: 500px;
+	}
 }
+
+@media(max-width: 490px){
+	.prod-con{
+		height: 270px;
+	}
+}
+
 
 
 
