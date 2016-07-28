@@ -19,6 +19,9 @@
 			<tr>
 				<td>514 486 5542</td>
 			</tr>	
+			<tr>
+				<td><a href="https://www.facebook.com/Teva-Aliments-Naturels-205107189582455/" target="_blank" class="badge social facebook"><i class="fa fa-facebook"></i></a></td>			
+			</tr>
 				</table>
 				
 				<div class="clearfix"></div>

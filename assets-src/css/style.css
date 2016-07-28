@@ -80,6 +80,29 @@ li.qtranxs-lang-menu-item {
 	background: pink;
 }
 
+.badge.social {  
+  font-size: 16px;
+  height: 20px;
+  width: 20px;
+  text-align: right;
+	bottom: 0;	
+  line-height: 22px;
+  padding: 0;
+  padding-right: 3px;
+  padding-top: 3px;
+  border-radius: 0px;
+  color: white !important;
+}
+
+.badge.social.facebook{
+	background: #3b5998;
+}
+
+.badge.social.facebook:hover{
+	color: white;
+	background: #2a4887;
+}
+
 /*.lang:hover{
 	background: #fff;
 }*/
