@@ -23,8 +23,11 @@
 				<td>514 486 5542</td>
 			</tr>	
 			<tr>
-				<td><a href="https://www.facebook.com/Teva-Aliments-Naturels-205107189582455/" target="_blank" class="badge social facebook"><i class="fa fa-facebook"></i></a></td>			
+				<td><a href="https://www.facebook.com/Teva-Aliments-Naturels-205107189582455/" target="_blank" class="badge social facebook"><i class="fa fa-facebook"></i></a>			
+				<a href="https://www.instagram.com/tevanaturals/" target="_blank" class="badge social instagram"><i class="fa fa-instagram"></i></a>			
+				<a href="https://twitter.com/tevanaturals" target="_blank" class="badge social twitter"><i class="fa fa-twitter"></i></a></td>			
 			</tr>
+
 				</table>
 				
 				<div class="clearfix"></div>

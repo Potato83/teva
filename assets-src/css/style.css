@@ -9,8 +9,8 @@ header{
 	width: 100%;
 	/*height: 50px;*/
 	background: blue;
-	background: #bbb;
-	background: url('../img/avo.jpg');
+	/*background:red;*/
+	background: url('../img/avo.jpg') 50%;
 	background-size: cover;
 	/*position: fixed;*/
 	z-index: 2;
@@ -45,7 +45,7 @@ p{
 
 li.qtranxs-lang-menu-item {
 	display: inline-block;
-	background: #fff;
+	background: #bbb;
 	padding: 5px 10px;
 	position: relative;
 	top: 8px;
@@ -78,7 +78,7 @@ li.qtranxs-lang-menu-item {
 }
 
 .selected{
-	background: #bbb !important;
+	background: #fff !important;
 }
 
 .current-menu-item{
@@ -87,27 +87,33 @@ li.qtranxs-lang-menu-item {
 }
 
 .badge.social {  
-  font-size: 16px;
-  height: 20px;
-  width: 20px;
-  text-align: right;
+  font-size: 22px;
+  height: 30px;
+  width: 30px;
+  /*text-align: right;*/
 	bottom: 0;	
-  line-height: 22px;
+  line-height: 32px;
   padding: 0;
-  padding-right: 3px;
-  padding-top: 3px;
+  /*padding-right: 3px;
+  padding-top: 3px;*/
   border-radius: 0px;
   color: white !important;
+  margin-left: 5px;
+  background: rgba(100,100,100,0.5);
 }
 
-.badge.social.facebook{
+.badge.social:hover{
+	background: rgba(50,50,50,0.5);
+}
+
+/*.badge.social.facebook{
 	background: #3b5998;
 }
 
 .badge.social.facebook:hover{
 	color: white;
 	background: #2a4887;
-}
+}*/
 
 /*.lang:hover{
 	background: #fff;
@@ -174,10 +180,10 @@ footer{
 	/*background: #ccc;*/
 /*	background: rgba(3,3,3,0.5);*/
 	background: #ddd;
-	background: url('../img/avo.jpg') 80%;
+	background: url('../img/storefront.jpg') 50% -110%;
 	background-size: cover;
 	color: #ddd;
-	padding: 10px;
+	/*padding: 10px;*/
 	/*position: relative;
 	display: block;*/
 	margin-bottom: 20px;
@@ -190,6 +196,7 @@ footer{
 	/*background: yellow;*/
 	/*background: #ddd;
 	background: url('../img/avo.jpg');*/
+	background: rgba(0,0,0,0.5);
 }
 
 table.hours{
@@ -356,7 +363,12 @@ table.info{
 }
 
 
-
+.mailing-list{
+	/*background: red;*/
+	border-top: 1px solid black;
+	padding-top: 20px;
+	margin-top: 25px;
+}
 
 
 

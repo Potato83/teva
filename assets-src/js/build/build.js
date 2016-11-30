@@ -2401,10 +2401,12 @@ if (lango === 'fr'){
 	//alert('franch!');
 	$('.qtranxs-lang-menu-item-fr > a').parent().addClass('selected');
 	$('.qtranxs-lang-menu-item-en > a').parent().removeClass('selected');
+	console.log('french');
 }
 
 if (lango === 'en'){
 	//alert('anglish!');
 	$('.qtranxs-lang-menu-item-en > a').parent().addClass('selected');
 	$('.qtranxs-lang-menu-item-fr > a').parent().removeClass('selected');
+	console.log('english');
 }
